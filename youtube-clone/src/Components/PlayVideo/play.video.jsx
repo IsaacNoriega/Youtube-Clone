@@ -36,12 +36,46 @@ const PlayVideo = () =>{
                     <span>1M Subscribers</span>
                 </div>
                 <button>Subscribe</button>
-                <div className="vid-description">
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                </div>
             </div>
+            <div className="vid-description">
+                    <p>Channel that makes learning Easy</p>
+                    <p>Subscribe GreatStack yo Watch more Tutorials on web Development</p>
+                    <hr />
+                    <h4>130 Comments</h4>
+                    <div className="comment">
+                        <img src={user_profile} alt="" />
+                        <div>
+                            <h3>Jack Nicholson <span>1 day ago</span></h3>
+                            <p>La paupau nomas no carrea en valo y ya me awito ese pedo</p>
+                            <div className="comment-action">
+                                <img src={like} alt="" /> <span>244</span>
+                                <img src={dislike} alt="" /><span>10</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="comment">
+                        <img src={user_profile} alt="" />
+                        <div>
+                            <h3>Jack Nicholson <span>1 day ago</span></h3>
+                            <p>La paupau nomas no carrea en valo y ya me awito ese pedo</p>
+                            <div className="comment-action">
+                                <img src={like} alt="" /> <span>244</span>
+                                <img src={dislike} alt="" /><span>10</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="comment">
+                        <img src={user_profile} alt="" />
+                        <div>
+                            <h3>Jack Nicholson <span>1 day ago</span></h3>
+                            <p>La paupau nomas no carrea en valo y ya me awito ese pedo</p>
+                            <div className="comment-action">
+                                <img src={like} alt="" /> <span>244</span>
+                                <img src={dislike} alt="" /><span>10</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
         
     )
