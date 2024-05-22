@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom'
 import './feed.css';
-import thumbnail1 from '../../assets/thumbnail1.png';
 
 
 import {API_KEY , value_converter} from '../../data'

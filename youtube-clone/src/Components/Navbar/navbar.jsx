@@ -1,5 +1,7 @@
 // eslint-disable-next-line no-unused-vars
-import React from "react";
+import React  from "react";
+import { Link } from 'react-router-dom'
+
 //Styles
 import './navbar.css';
 
@@ -19,7 +21,7 @@ const Navbar = ({setSidebar}) => {
 
       <div className="nav-left flex-div">
         <img className="menu-icon" onClick={()=>{setSidebar(prev=> prev===false ? true : false)}} src={menu_icon} alt="" />
-        <img className="logo" src={logo} alt="" />
+        <Link to='/'><img className="logo" src={logo} alt="" /></Link>
       </div>
 
       <div className="nav-middle flex-div">
